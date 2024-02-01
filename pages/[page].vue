@@ -1,8 +1,7 @@
 <template>
-  <div>
-    <BuilderComponent model="surinder"/>
-  </div>
+  <BuilderComponent model="surinder"/>
 </template>
 
-<script lang="ts" setup>
+<script setup>
+
 </script>
