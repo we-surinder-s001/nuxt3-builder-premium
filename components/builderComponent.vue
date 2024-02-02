@@ -30,5 +30,5 @@ const content = await fetchOneEntry({
     urlPath: route.path,
   },
 });
-console.log(content);
+
 </script>
