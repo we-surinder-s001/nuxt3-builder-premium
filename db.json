@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Surinder- want to go mountain",
+    "favPlace": "mountain",
+    "age": 22
+  },
+  {
+    "id": 2,
+    "name": "Surinder- want to go desert",
+    "favPlace": "desert",
+    "age": 22
+  },
+  {
+    "id": 3,
+    "name": "Surinder- want to go sea",
+    "favPlace": "sea",
+    "age": 22
+  },
+  {
+    "id": 4,
+    "name": "Surinder- want to go some other Place",
+    "favPlace": "Some Other Place",
+    "age": 22
+  }
+]
