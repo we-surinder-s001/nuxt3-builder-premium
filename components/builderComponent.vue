@@ -2,10 +2,10 @@
   <div id="home">
     <div v-if="content || isPreviewing()">
       <Content
-        :model="model"
-        :content="content"
-        :api-key="BUILDER_PUBLIC_API_KEY"
-        :data="user_data"
+          :model="model"
+          :content="content"
+          :api-key="BUILDER_PUBLIC_API_KEY"
+          :data="user_data"
       />
     </div>
     <div v-else>Content not Found</div>
@@ -13,9 +13,9 @@
 </template>
 
 <script setup>
-import { Content, fetchOneEntry, isPreviewing } from "@builder.io/sdk-vue";
+import {Content, fetchOneEntry, isPreviewing} from "@builder.io/sdk-vue";
 
-const { model, user_data } = defineProps({
+const {model, user_data} = defineProps({
   model: {
     type: String,
     default: "surinder",
@@ -29,7 +29,6 @@ const { model, user_data } = defineProps({
 
 const content = ref(null);
 const BUILDER_PUBLIC_API_KEY = "fdc38f2e8eee4fcc90e72279fdb8708c";
-
 const route = useRoute();
 
 watchEffect(async () => {
